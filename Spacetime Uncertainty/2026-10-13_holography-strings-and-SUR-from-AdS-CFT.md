@@ -191,6 +191,8 @@ The task is to compute $\ell$ from CFT data: $\lambda$ through the gap and Regge
    \boxed{\mathrm{Re}\,F_\lambda(s;L)=\frac1R\int_{\tau_s}^\infty d\tau\,e^{-3\tau}K_{H_3}(\tau;L),\qquad \tau_s=\frac{\ln\tilde s}{2\sqrt\lambda}=\frac{\alpha'\ln\tilde s}{2R^2}}
    $$
    with $K_{H_3}=(4\pi\tau)^{-3/2}\frac{L}{\sinh L}e^{-\tau-L^2/4\tau}$. The imaginary part, $\mathrm{Im}\,F\propto\lambda^{-1/2}e^{-3\tau_s}K_{H_3}(\tau_s;L)$, describes tidal string excitation, i.e. decoherence.
+
+   *Correction after reading Cornalba 0710.5480 (see `2026-10-13_literature-notes-prior-work.md`, §1):* the residue gives $\beta s^{j-2}\simeq e^{-(\nu^2+4)\tilde\tau_s}/(\nu^2+4)$ with $\tilde\tau_s=(\ln s+\gamma_E-i\pi/2)/2\sqrt\lambda$. So $\ln s\to\ln s+\gamma_E$ in $\mathrm{Re}F$, the sign convention is $\delta=-2\pi\Gamma_{\rm Cornalba}$, and a possible $\ln(4\sqrt\lambda)$ shift in the scale of $s$ is still open (check BPST).
 4. **Proposed SUR:** $\Delta X^+\Delta X^-\ge4\pi G\,\mathrm{Re}F_\lambda(s;L)$. Its three regimes:
    - **$b\gtrsim R$:**
      $$
@@ -234,7 +236,7 @@ $$
 
 ### 3.5 Next steps
 
-1. Rederive $\mathrm{Re}F_\lambda$ from the Cornalba–Costa–Penedones Regge-theory phase shift (0710.5480). Check its $\lambda\to\infty$ limit against the AHKT shock.
+1. Rederive $\mathrm{Re}F_\lambda$ from Cornalba's Regge-theory phase shift (0710.5480). Check its $\lambda\to\infty$ limit against the AHKT shock.
 2. Prove that $\exp(iP^+FP^-)$ factorizes on the two-probe space to $O(\lambda^{-1/2})$, and identify $X^\pm$ with light-ray operators.
 3. Work out the three regimes, keeping the 10d/5d crossover at $b\sim R$ explicit.
 4. Do the thermal version and compute the scrambling-time cutoff.
@@ -246,7 +248,7 @@ $$
 - The algebra is valid only where the eikonal approximation holds and $|\mathrm{Im}\,\Gamma|\ll1$.
 - Multi-Pomeron exchange and black-hole formation set in when $|\Gamma|\sim1$.
 
-**Prior work to check:** Polchinski, *Chaos in the black hole S-matrix* (2015); Gaddam–Groenenboom–'t Hooft–Verlinde; Minic (1998); Yoneya (2000).
+**Prior work to check:** Polchinski, *Chaos in the black hole S-matrix* (2015); Gaddam–Groenenboom–'t Hooft (2012.02357; the earlier "–Verlinde" was an error); Minic (1998); Yoneya (2000). Summaries: `2026-10-13_literature-notes-prior-work.md`.
 
 ---
 
@@ -254,7 +256,7 @@ $$
 
 - [Harmark & Wilhelm, QSC Hagedorn temperature (arXiv:2109.09761)](https://arxiv.org/abs/2109.09761)
 - [Harmark, curvature corrections to the Hagedorn temperature via the thermal scalar (JHEP 2024)](https://doaj.org/article/09d0d050c1ab459199cdf960f81346c5)
-- [Cornalba, Costa, Penedones — Eikonal Methods in AdS/CFT: Regge Theory and Multi-Reggeon Exchange (arXiv:0710.5480)](https://arxiv.org/abs/0710.5480)
+- [Cornalba (sole author) — Eikonal Methods in AdS/CFT: Regge Theory and Multi-Reggeon Exchange (arXiv:0710.5480)](https://arxiv.org/abs/0710.5480)
 - [Cornalba, Costa, Penedones — Eikonal Methods in AdS/CFT: BFKL Pomeron at Weak Coupling (arXiv:0801.3002)](https://arxiv.org/abs/0801.3002)
 - Other works cited from memory and not re-verified:
   - Susskind (hep-th/9309145); Horowitz–Polchinski (1996, 1997); Chen–Maldacena–Witten (2021).
