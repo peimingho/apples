@@ -248,7 +248,14 @@ $$
 - The algebra is valid only where the eikonal approximation holds and $|\mathrm{Im}\,\Gamma|\ll1$.
 - Multi-Pomeron exchange and black-hole formation set in when $|\Gamma|\sim1$.
 
-**Prior work to check:** Polchinski, *Chaos in the black hole S-matrix* (2015); Gaddam–Groenenboom–'t Hooft (2012.02357; the earlier "–Verlinde" was an error); Minic (1998); Yoneya (2000). Summaries: `2026-10-13_literature-notes-prior-work.md`.
+**Prior work (checked against full texts; details in `2026-10-13_literature-notes-prior-work.md`):**
+- **§3.0(a):** asserted qualitatively by Li–Yoneya, Minic (1998) and Yoneya (2000, §4.3). Only the exact $R$-free identity is new.
+- **§3.4:** the crossover at $\ell_{11}$ is in Yoneya (2000), eqs. (4.1)–(4.5). Only the form $\Delta t\,\Delta U\ge\mathcal F(g_{\rm eff}^2)$ is new.
+- **§3.1–3.2:** not found in Cornalba (0710.5480), Cornalba–Costa–Penedones (0801.3002), Polchinski (1505.08108) or Gaddam–Groenenboom–'t Hooft (2012.02357; the earlier "–Verlinde" was an error).
+- **Corrections to adopt:**
+  - fix the normalization of $F$ (shock-wave $\ell^2+\ell+1$ vs. off-shell $\ell^2+\ell+2$ kernels);
+  - state the bound for amplitudes or out-of-time-order correlators, not vacuum variances (Polchinski);
+  - at weak coupling the phase is purely absorptive at leading order.
 
 ---
 
